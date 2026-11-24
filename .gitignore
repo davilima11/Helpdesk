@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+database/*.db
+.venv/
+venv/
+.streamlit/secrets.toml

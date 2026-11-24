@@ -1,0 +1,300 @@
+{
+  "intencoes": {
+    "saudacao": {
+      "tema": "saudação",
+      "tecnica": false,
+      "exemplos": [
+        "oi",
+        "olá",
+        "bom dia",
+        "boa tarde",
+        "boa noite",
+        "e aí",
+        "opa",
+        "oi tudo bem",
+        "oi bit"
+      ],
+      "resposta": "Oi! Eu sou o Bit, o assistente do suporte de TI. Me conta qual é o problema que eu tento te ajudar. Eu consigo ajudar com senha, VPN, impressora, e-mail, Wi-Fi, computador lento e acesso a sistemas."
+    },
+    "senha": {
+      "tema": "senha bloqueada ou esquecida",
+      "tecnica": true,
+      "exemplos": [
+        "esqueci minha senha",
+        "minha senha bloqueou",
+        "senha bloqueada",
+        "não consigo entrar no sistema",
+        "não consigo logar",
+        "minha conta está bloqueada",
+        "errei a senha várias vezes",
+        "como troco minha senha",
+        "minha senha expirou",
+        "não consigo entrar no computador",
+        "não entra no login"
+      ],
+      "resposta": "Para desbloquear ou trocar a senha:\n1. Acesse o portal de autoatendimento (senha.planalto.local) pelo celular ou por outro computador.\n2. Clique em \"Esqueci minha senha\".\n3. Confirme o código que chega no seu celular cadastrado.\n4. Crie a senha nova e espere uns 5 minutos antes de tentar entrar.\n\nSe você não tem celular cadastrado, digite \"abrir chamado\" que eu registro para você.\nLembrete: eu não vejo nem troco senha, e ninguém do suporte vai te pedir ela."
+    },
+    "vpn": {
+      "tema": "VPN",
+      "tecnica": true,
+      "exemplos": [
+        "a vpn não conecta",
+        "a vpn caiu",
+        "não consigo acessar a rede de casa",
+        "vpn dando erro",
+        "como conectar na vpn",
+        "home office não acessa o sistema",
+        "a vpn fica carregando",
+        "erro ao conectar vpn"
+      ],
+      "resposta": "Vamos tentar na VPN:\n1. Veja se a sua internet está funcionando abrindo qualquer site.\n2. Feche o programa da VPN e abra de novo.\n3. Confira se o usuário está certo (é o mesmo do computador da empresa).\n4. Se ainda não conectar, reinicie o computador e tente mais uma vez.\n\nSe aparecer erro de usuário ou senha, pode ser que a sua senha tenha expirado."
+    },
+    "impressora": {
+      "tema": "impressora",
+      "tecnica": true,
+      "exemplos": [
+        "a impressora não imprime",
+        "impressora travada",
+        "papel preso na impressora",
+        "a impressora está offline",
+        "não acho a impressora",
+        "o documento fica na fila e não sai",
+        "como adiciono a impressora",
+        "impressora não aparece"
+      ],
+      "resposta": "Para a impressora:\n1. Veja se ela está ligada, com papel e sem luz de erro piscando.\n2. Abra a fila de impressão no computador e cancele os documentos que estão travados.\n3. Desligue a impressora, espere 30 segundos e ligue de novo.\n4. Se ela não aparece no seu computador, vá em Configurações > Impressoras > Adicionar e escolha a impressora do seu andar.\n\nSe for papel preso, abra a tampa com cuidado e puxe o papel na direção que ele sai."
+    },
+    "email": {
+      "tema": "e-mail",
+      "tecnica": true,
+      "exemplos": [
+        "meu email não envia",
+        "não recebo email",
+        "caixa de entrada cheia",
+        "o outlook não abre",
+        "email travado",
+        "a mensagem voltou",
+        "meu email não sincroniza",
+        "o email está dando erro"
+      ],
+      "resposta": "Para o e-mail:\n1. Confira se a internet está funcionando.\n2. Se a caixa estiver cheia, apague mensagens com anexo grande e esvazie a lixeira.\n3. Se a mensagem voltou, confira se o endereço foi digitado certo.\n4. Se o Outlook não abre, feche ele pelo Gerenciador de Tarefas e abra de novo. Se continuar, reinicie o computador."
+    },
+    "acesso_sistema": {
+      "tema": "acesso a sistema ou pasta",
+      "tecnica": true,
+      "exemplos": [
+        "preciso de acesso ao sistema",
+        "não tenho permissão",
+        "acesso negado",
+        "como peço acesso a uma pasta",
+        "liberar acesso ao sistema financeiro",
+        "sem permissão para abrir a pasta",
+        "pedir acesso a um sistema"
+      ],
+      "resposta": "Acesso novo precisa da aprovação do seu gestor. Funciona assim:\n1. Seu gestor faz o pedido no portal (portal.planalto.local > Solicitações > Acessos).\n2. Depois de aprovado, a TI libera em até 1 dia útil.\n\nSe quiser, digite \"abrir chamado\" que eu registro o pedido para acompanhar."
+    },
+    "lentidao": {
+      "tema": "computador lento",
+      "tecnica": true,
+      "exemplos": [
+        "o computador está lento",
+        "o computador está travando",
+        "notebook muito devagar",
+        "o computador congela",
+        "demora para abrir os programas",
+        "a tela travou",
+        "computador muito lento"
+      ],
+      "resposta": "Para o computador lento:\n1. Salve o que estiver fazendo e reinicie (muita coisa resolve só com isso, principalmente se faz dias que ele não é reiniciado).\n2. Feche abas e programas que você não está usando.\n3. Veja se tem atualização pendente e deixe instalar.\n\nSe ele esquentar muito ou fizer barulho estranho, digite \"abrir chamado\"."
+    },
+    "wifi": {
+      "tema": "Wi-Fi ou internet",
+      "tecnica": true,
+      "exemplos": [
+        "o wi-fi não conecta",
+        "estou sem internet",
+        "a internet caiu",
+        "o wi-fi não aparece",
+        "a internet está muito lenta",
+        "não tem internet",
+        "wi-fi caindo toda hora"
+      ],
+      "resposta": "Para o Wi-Fi:\n1. Desligue e ligue o Wi-Fi do computador.\n2. Confira se está na rede certa: \"Planalto-Corporativo\" (a \"Planalto-Visitante\" não acessa os sistemas).\n3. Mande o computador esquecer a rede e conecte de novo.\n4. Se ninguém do seu setor está com internet, o problema provavelmente é geral. Nesse caso digite \"abrir chamado\"."
+    },
+    "periferico": {
+      "tema": "teclado, mouse, monitor ou outro periférico",
+      "tecnica": true,
+      "exemplos": [
+        "o teclado parou de funcionar",
+        "o mouse não funciona",
+        "o monitor não liga",
+        "a tela está preta",
+        "o fone não funciona",
+        "a webcam não funciona",
+        "o mouse está travando",
+        "o segundo monitor não aparece"
+      ],
+      "resposta": "Para teclado, mouse, monitor ou fone:\n1. Confira se o cabo está bem encaixado (tire e coloque de novo).\n2. Se for sem fio, troque a pilha ou carregue.\n3. Teste em outra entrada USB.\n4. No monitor, confira se ele está ligado na tomada e se o botão de energia acende.\n\nSe não voltar, digite \"abrir chamado\" que alguém leva um equipamento reserva."
+    },
+    "solicitacao": {
+      "tema": "pedido de programa ou equipamento",
+      "tecnica": true,
+      "exemplos": [
+        "como instalo o excel",
+        "preciso instalar um programa",
+        "quero instalar um software",
+        "preciso de um notebook novo",
+        "quero pedir um monitor",
+        "preciso de um mouse novo",
+        "solicitar equipamento",
+        "como peço um programa"
+      ],
+      "resposta": "Programa novo e equipamento novo passam por aprovação:\n1. Peça pelo portal (portal.planalto.local > Solicitações > Programas ou Equipamentos).\n2. Seu gestor aprova.\n3. A TI instala ou entrega em até 3 dias úteis.\n\nPor segurança, a gente não instala programa baixado da internet sem passar por esse pedido."
+    },
+    "seguranca": {
+      "tema": "possível incidente de segurança",
+      "tecnica": true,
+      "exemplos": [
+        "cliquei em um link estranho",
+        "acho que peguei vírus",
+        "recebi um email suspeito",
+        "caí em um golpe de phishing",
+        "alguém entrou na minha conta",
+        "meu computador foi invadido",
+        "apareceu uma mensagem pedindo resgate",
+        "baixei um arquivo estranho",
+        "meus arquivos sumiram e apareceu um aviso"
+      ],
+      "resposta": "Isso é prioridade. Faça agora:\n1. Desconecte o computador da rede (tire o cabo ou desligue o Wi-Fi).\n2. Não desligue o computador e não apague nada.\n3. Não digite senha em lugar nenhum.\n\nJá abri um chamado urgente: {protocolo}. A equipe de segurança vai entrar em contato."
+    },
+    "nao_resolveu": {
+      "tema": "não resolveu",
+      "tecnica": false,
+      "exemplos": [
+        "não funcionou",
+        "não resolveu",
+        "continua igual",
+        "ainda não deu certo",
+        "fiz tudo e nada",
+        "continua com problema",
+        "não deu certo",
+        "nada funcionou",
+        "continua sem funcionar",
+        "ainda não funciona",
+        "nada resolveu"
+      ],
+      "resposta": ""
+    },
+    "abrir_chamado": {
+      "tema": "abrir chamado",
+      "tecnica": false,
+      "exemplos": [
+        "abrir chamado",
+        "quero abrir um chamado",
+        "registrar um problema",
+        "abre um chamado para mim",
+        "preciso abrir um chamado"
+      ],
+      "resposta": ""
+    },
+    "consultar_chamado": {
+      "tema": "consultar chamado",
+      "tecnica": false,
+      "exemplos": [
+        "status do chamado",
+        "como está meu chamado",
+        "consultar chamado",
+        "andamento do meu protocolo",
+        "meu chamado foi resolvido"
+      ],
+      "resposta": "Me manda o número do protocolo (algo como CH-0001) que eu consulto para você."
+    },
+    "falar_humano": {
+      "tema": "falar com atendente",
+      "tecnica": false,
+      "exemplos": [
+        "quero falar com uma pessoa",
+        "quero falar com um atendente",
+        "falar com o suporte",
+        "quero falar com humano",
+        "me passa para alguém",
+        "ligar para o suporte"
+      ],
+      "resposta": "Claro. O suporte atende pelo ramal 4000, de segunda a sexta, das 8h às 18h. Se preferir, digite \"abrir chamado\" que eu registro para você."
+    },
+    "pedido_indevido": {
+      "tema": "pedido de acesso de outra pessoa",
+      "tecnica": false,
+      "exemplos": [
+        "me passa a senha do joão",
+        "qual a senha do administrador",
+        "libera o acesso de outra pessoa",
+        "quero ver o email do meu colega",
+        "desbloqueia a conta do meu chefe",
+        "qual a senha do meu colega",
+        "me da a senha do admin"
+      ],
+      "resposta": "Isso eu não posso fazer. Senha e acesso são pessoais: só o próprio dono pode pedir, e acesso novo precisa da aprovação do gestor. Se for algo do seu trabalho, peça para o seu gestor solicitar pelo portal."
+    },
+    "agradecimento": {
+      "tema": "agradecimento",
+      "tecnica": false,
+      "exemplos": [
+        "obrigado",
+        "valeu",
+        "obrigada",
+        "resolveu",
+        "deu certo",
+        "funcionou",
+        "muito obrigado"
+      ],
+      "resposta": "Que bom que deu certo! Se precisar de novo é só chamar."
+    }
+  },
+  "mensagens": {
+    "inicial": "Oi! Eu sou o Bit, o assistente do suporte de TI. Pode me contar o problema com suas palavras, do jeito que você falaria com um colega.",
+    "nao_entendi": "Não tenho certeza se entendi. Eu ajudo com senha, VPN, impressora, e-mail, Wi-Fi, computador lento, periféricos, acesso a sistemas e pedidos de programa ou equipamento. Pode explicar de outro jeito? Se não for nada disso, o suporte atende no ramal 4000.",
+    "com_duvida": "Acho que você está falando de {tema}. Se não for isso, me explica de outro jeito.\n\n",
+    "dado_sensivel": "Opa, parece que você digitou {tipo}. Eu descartei essa mensagem e não guardei nada. O suporte nunca pede senha, código de verificação ou dados de cartão. Se alguém pedir, desconfie.",
+    "acalmar": "Entendo que é chato quando as coisas não funcionam. Vamos tentar de novo? Me conta qual é o problema.",
+    "perguntar_problema": "Não resolveu qual problema? Me conta o que está acontecendo que eu tento de novo.",
+    "chamado_aberto": "Abri o chamado {protocolo} sobre {tema}. A equipe vai analisar em até 1 dia útil. Guarde esse número para consultar depois.",
+    "chamado_encontrado": "O chamado {protocolo} ({tema}) está com status: {status}. Foi aberto em {data}.",
+    "chamado_nao_encontrado": "Não encontrei o chamado {protocolo}. Confere se o número está certo?"
+  },
+  "sinonimos": {
+    "n": "nao",
+    "nao": "nao",
+    "pc": "computador",
+    "note": "notebook",
+    "net": "internet",
+    "vc": "voce",
+    "ta": "esta",
+    "to": "estou",
+    "pq": "porque",
+    "q": "que",
+    "tbm": "tambem",
+    "wifi": "wi-fi",
+    "email": "e-mail",
+    "msg": "mensagem",
+    "impresora": "impressora",
+    "dms": "demais",
+    "mt": "muito",
+    "mto": "muito",
+    "entra": "entrar",
+    "logar": "entrar",
+    "senah": "senha",
+    "sneha": "senha",
+    "travano": "travando"
+  },
+  "palavras_ofensivas": [
+    "idiota",
+    "burro",
+    "inutil",
+    "lixo",
+    "porcaria",
+    "merda",
+    "droga",
+    "imbecil"
+  ]
+}
