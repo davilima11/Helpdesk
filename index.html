@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Bit - Suporte de TI</title>
+  <meta name="description" content="Chatbot de suporte de TI. Projeto final da Unidade IV de Tendências em Ciência da Computação (UDF).">
+  <link rel="stylesheet" href="web/estilo.css">
+  <script src="web/vendor/marked.min.js" defer></script>
+  <script src="web/bit.js" defer></script>
+  <script src="web/app.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <div class="marca">
+      <span class="logo" aria-hidden="true">B</span>
+      <div>
+        <h1>Bit</h1>
+        <p>Assistente de suporte de TI da Distribuidora Planalto (empresa fictícia)</p>
+      </div>
+    </div>
+    <p class="credito">
+      Projeto final da Unidade IV · Tendências em Ciência da Computação · UDF<br>
+      Davi Vieira Lima · Profa. Kadidja Valéria
+    </p>
+  </header>
+
+  <div class="abas" role="tablist" aria-label="Seções do site">
+    <button type="button" role="tab" id="aba-conversa" aria-selected="true" data-painel="painel-conversa">Conversar com o Bit</button>
+    <button type="button" role="tab" id="aba-docs" aria-selected="false" tabindex="-1" data-painel="painel-docs">Documentação</button>
+  </div>
+
+  <main>
+    <section id="painel-conversa" role="tabpanel" aria-labelledby="aba-conversa">
+      <div class="conversa-layout">
+        <div class="chat">
+          <div id="mensagens" role="log" aria-label="Conversa com o Bit"></div>
+          <form id="form-chat" autocomplete="off">
+            <label for="campo" class="oculto">Sua mensagem</label>
+            <input id="campo" name="mensagem" type="text" placeholder="Descreva o problema com suas palavras..." maxlength="500">
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <aside class="lateral" aria-label="Sobre o Bit">
+          <h2>Eu ajudo com</h2>
+          <p>Senha, VPN, impressora, e-mail, Wi-Fi, computador lento, teclado/mouse/monitor, acesso a sistemas e pedidos de programa ou equipamento.</p>
+
+          <p class="aviso">O suporte <strong>nunca</strong> pede sua senha, código de verificação ou dados de cartão.</p>
+
+          <h2>Experimente</h2>
+          <div class="sugestoes">
+            <button type="button">vpn n conecta</button>
+            <button type="button">impresora n imprime</button>
+            <button type="button">minha senha é 1234</button>
+            <button type="button">cliquei num link estranho</button>
+            <button type="button">me passa a senha do joão</button>
+            <button type="button">qual a receita de bolo?</button>
+          </div>
+
+          <p class="nota">Esta versão roda inteira no seu navegador: nada do que você digita é enviado para servidor. A conversa some quando você fecha a página. Os chamados ficam salvos só neste navegador e guardam o assunto, nunca o que você digitou.</p>
+
+          <button type="button" id="limpar" class="secundario">Limpar conversa</button>
+          <p class="nota">Atendimento humano: ramal 4000, seg a sex, 8h às 18h.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="painel-docs" role="tabpanel" aria-labelledby="aba-docs" hidden>
+      <div class="docs-layout">
+        <nav aria-label="Documentos do projeto">
+          <ul>
+            <li><a href="#doc/1-especificacao" data-doc="1-especificacao">Especificação</a></li>
+            <li><a href="#doc/2-arquitetura-do-agente" data-doc="2-arquitetura-do-agente">Arquitetura do agente</a></li>
+            <li><a href="#doc/3-etica-e-vies" data-doc="3-etica-e-vies">Ética e viés</a></li>
+            <li><a href="#doc/4-testes" data-doc="4-testes">Testes e curadoria</a></li>
+          </ul>
+        </nav>
+        <article id="visor" class="doc" tabindex="-1"></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Versão web do Bit: a mesma lógica e a mesma base de conhecimento da versão em Python (Streamlit), reescrita em JavaScript para rodar no GitHub Pages. Um teste automático confere que as duas respondem igual.</p>
+    <p>Ferramenta de IA usada como apoio: Claude.</p>
+  </footer>
+</body>
+</html>

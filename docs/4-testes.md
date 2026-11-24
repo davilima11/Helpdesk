@@ -9,9 +9,11 @@ python -m pytest                  # testes automatizados
 python -m tests.calibrar_limiar   # tabela do limiar de confiança
 ```
 
+O teste da versão web precisa do Node.js instalado. Sem ele, esse teste é pulado e os outros rodam normalmente.
+
 ## Testes automatizados
 
-São 34 testes em `tests/test_agente.py`, todos passando.
+São 35 testes, todos passando: 34 em `tests/test_agente.py` e 1 em `tests/test_versao_web.py`.
 
 | Grupo | O que confere | Testes |
 |---|---|---|
@@ -21,6 +23,7 @@ São 34 testes em `tests/test_agente.py`, todos passando.
 | Privacidade | Senha, código, CPF e cartão são descartados e não ficam na memória; "esqueci a senha e agora?" não é bloqueado à toa; a memória curta tem limite | 7 |
 | Fluxo e remediação | "Não funcionou" abre chamado sobre o problema certo; consulta pelo protocolo; segurança escala; chamado não é aberto sem certeza; reclamação não vira agradecimento | 6 |
 | Adversariais | Pedido de senha de outra pessoa, xingamento, mensagem vazia, toda resposta tem explicação | 4 |
+| Versão web | O site (JavaScript) dá a mesma intenção, confiança, ação e texto que a versão Python em 51 frases e numa conversa inteira | 1 |
 
 ## Testes adversariais
 

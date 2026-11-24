@@ -81,6 +81,12 @@ O guia cita Mello (2024) sobre equilibrar arquitetura rígida (controle e segura
 
 O custo dessa escolha é que o Bit não lida bem com perguntas muito diferentes da base. Isso aparece nos testes e está discutido na análise de viés.
 
+## Versão web
+
+Para a professora e os colegas conseguirem testar sem instalar Python, o Bit também roda no GitHub Pages. Como o Pages só hospeda arquivos estáticos e não roda Python, reescrevi a mesma lógica em JavaScript (`web/bit.js`), lendo a mesma base de conhecimento. O cálculo do TF-IDF segue a mesma fórmula do scikit-learn, e um teste automático compara as duas versões frase por frase.
+
+Duas diferenças: na versão web os chamados ficam salvos no próprio navegador (localStorage), e os botões "Resolveu" / "Não resolveu" não guardam o feedback, porque não existe um servidor para receber. Fora isso, as respostas são as mesmas.
+
 ## Referências
 
 - VALÉRIA, Kadidja. *Guia de Estudos A1: Criação de Agentes de IA e Ética Aplicada*. UDF Centro Universitário, 2026. Os autores Carraro (2023), Murta (2023) e Mello (2024) foram citados a partir desse guia.
