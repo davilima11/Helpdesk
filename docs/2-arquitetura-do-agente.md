@@ -49,7 +49,7 @@ A regra 4 tem uma lógica diferente das outras. Em segurança, o erro de não ag
 | Mensagem | Perceptiva (texto normalizado) | Cognitiva | Decisória |
 |---|---|---|---|
 | "vpn n conecta" | "vpn nao conecta" | vpn, 0,99 | responder |
-| "mandei imprimir e nao saiu nada" | igual | impressora, 0,47 | responder com dúvida |
+| "mandei imprimir e nao saiu nada" | igual | impressora, 0,48 | responder com dúvida |
 | "acho que tem virus no meu pc" | "...no meu computador" | seguranca, 0,58 | escalar |
 | "minha senha é Abc@1234" | dado sensível encontrado | não roda | descartar |
 
